@@ -6,7 +6,7 @@
 /*   By: bbraga <bruno.braga.design@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/18 18:23:32 by bbraga            #+#    #+#             */
-/*   Updated: 2022/06/19 23:32:03 by bbraga           ###   ########.fr       */
+/*   Updated: 2022/06/20 13:21:19 by bbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,10 +58,4 @@ int	ft_putnb(int n)
 	nb = ft_print_str(convert);
 	free(convert);
 	return (nb);
-}
-
-int	ft_percent(void)
-{
-	write(1, "%", 1);
-	return (1);
 }

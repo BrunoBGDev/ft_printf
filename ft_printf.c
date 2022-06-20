@@ -6,7 +6,7 @@
 /*   By: bbraga <bruno.braga.design@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/18 13:08:30 by bbraga            #+#    #+#             */
-/*   Updated: 2022/06/20 00:30:15 by bbraga           ###   ########.fr       */
+/*   Updated: 2022/06/20 14:27:01 by bbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static int	ft_check_format(va_list args, const char format)
 	else if (format == 'x' || format == 'X')
 		rtn += ft_hex_format(va_arg(args, unsigned int), format);
 	else if (format == '%')
-		rtn = ft_percent();
+		rtn = write(1, "%", 1);
 	return (rtn);
 }
 

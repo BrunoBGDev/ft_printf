@@ -6,7 +6,7 @@
 /*   By: bbraga <bruno.braga.design@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/18 18:47:17 by bbraga            #+#    #+#             */
-/*   Updated: 2022/06/20 00:37:50 by bbraga           ###   ########.fr       */
+/*   Updated: 2022/06/20 14:25:50 by bbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,15 @@
 
 static int	ft_get_numbers(unsigned int nb)
 {
-	int	count;
+	int	len;
 
-	count = 0;
+	len = 0;
 	while (nb != 0)
 	{
-		count++;
+		len++;
 		nb /= 10;
 	}
-	return (count);
+	return (len);
 }
 
 static char	*ft_uitoa(unsigned int n)

@@ -6,7 +6,7 @@
 /*   By: bbraga <bruno.braga.design@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/19 17:35:13 by bbraga            #+#    #+#             */
-/*   Updated: 2022/06/20 00:00:32 by bbraga           ###   ########.fr       */
+/*   Updated: 2022/06/20 14:25:23 by bbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,15 @@
 
 static int	ft_get_hex(unsigned int n)
 {
-	int	count;
+	int	len;
 
-	count = 0;
+	len = 0;
 	while (n != 0)
 	{
-		count++;
+		len++;
 		n /= 16;
 	}
-	return (count);
+	return (len);
 }
 
 static void	ft_puthex(unsigned int n, const char format)

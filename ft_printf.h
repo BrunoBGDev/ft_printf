@@ -6,7 +6,7 @@
 /*   By: bbraga <bruno.braga.design@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/18 12:54:28 by bbraga            #+#    #+#             */
-/*   Updated: 2022/06/19 23:33:24 by bbraga           ###   ########.fr       */
+/*   Updated: 2022/06/20 14:29:56 by bbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ int		ft_putchr(int c);
 int		ft_print_str(char *str);
 int		ft_ptr(unsigned long long ptr);
 int		ft_putnb(int n);
-int		ft_percent(void);
 int		ft_unsigned(unsigned int n);
 int		ft_hex_format(unsigned int n, const char format);
 char	*ft_itoa_printf(int n);
